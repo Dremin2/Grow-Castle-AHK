@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 #MaxThreadsPerHotkey 2
 #Include %A_ScriptDir%\FindClick-master\FindClick.ahk
-SetWorkingDir F:\Users\Blake\Desktop\Folders\AHK_scripts\GrowCastle\Images
+SetWorkingDir %A_ScriptDir%\Images
 
 bSuspended = 1
 
