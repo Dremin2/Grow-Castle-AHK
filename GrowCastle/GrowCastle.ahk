@@ -24,7 +24,8 @@ mp_color := PixelGetColor(1600, 40)
 hp_color := PixelGetColor(1100, 40)
 
 End::ExitApp
- 
+F12::Reload
+
 #IfWinActive, Nox
 
 CoordMode, Mouse, Client
@@ -42,18 +43,6 @@ F7::
 F8:: 
 {
 	DragonBattleLoop()
-	return
-}
-
-F11::
-{
-	BreakLoop = 0
-	return
-}
-
-F12::
-{
-	BreakLoop = 1
 	return
 }
 
@@ -609,4 +598,4 @@ NoxActive()
 
 ;$`::Suspend
 
-^!r::Reload
+
